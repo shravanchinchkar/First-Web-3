@@ -10,7 +10,6 @@ function App() {
   const [courseContract, setCourseContract] = useState<any>(null);
   const [courseFee, setCourseFee] = useState("");
   const contractAddress = "0x6A8Ee5eAd4346FC23765f3004e98ef8c86FbC6D0";
-
   useEffect(() => {
     // @ts-ignore
     if (window.ethereum) {
